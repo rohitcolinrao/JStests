@@ -22,6 +22,7 @@ let getCounts = (type) => {
         break
       case 'event':
         selectedCol = columns[1]
+        break
       case 'error':
         selectedCol = columns[2]
         break
